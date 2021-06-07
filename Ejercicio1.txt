@@ -1,0 +1,18 @@
+Proceso Ejercicio_1
+	par=0;
+	impar=0;
+	Escribir "Ingrese un numero";
+	leer n;
+	Escribir "Lista de numeros";
+	Para x=1 hasta n con paso 1 Hacer
+		nAle<-Aleatorio(1,100);
+		Escribir nAle;
+		si nAle mod 2==0 Entonces
+			par=par+1;
+		Sino
+			impar=impar+1;
+		FinSi
+	FinPara
+	Escribir "Numeros pares: ",par;
+	Escribir "Numeros impares: ",impar;
+FinProceso
